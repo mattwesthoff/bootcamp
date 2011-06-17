@@ -37,6 +37,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
     //using self. here is super important.  it's the difference between using the autoprop and using the member.
     //This is also why the count starts at 2
     //using the prop does a retain on what's passed in
@@ -50,6 +52,8 @@
     
     //another great practice is to have the protected variables start with _, and then use 
     //@synthesize MutableString = _mutableString;
+    
+    
     self.MutableString = [[NSMutableString alloc] initWithString:@"a string"];
     self.String = [[NSString alloc] initWithString:@"another string"];
     self.IVarStorage = [[NSMutableArray alloc] initWithCapacity:10];
@@ -90,6 +94,7 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    self.CountLabel = nil;
 }
 
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
