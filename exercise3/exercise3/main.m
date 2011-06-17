@@ -10,6 +10,25 @@
 
 int main (int argc, const char * argv[])
 {
+    
+    //I should've checked in the unfixed code, but oh well, here it is:
+    /*
+     
+     NSMutableArray *array = [[NSArray alloc] initWithObjects: @"first", @"second", @"third", nil];
+     
+     int arrayLength = [array count];
+     
+     [array removeLastObject];
+     
+     for (int c = 0; c < arrayLength; ++c) {
+     NSLog(@"array[%d] = %@", c, [array objectAtIndex:c]);
+     }
+     
+     [array release];
+     
+     NSLog(@"array[1] = %@", [array objectAtIndex:1]);
+     
+     */
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
