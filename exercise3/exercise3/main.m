@@ -28,7 +28,7 @@ int main (int argc, const char * argv[])
      [array removeLastObject];
      
      for (int c = 0; c < arrayLength; ++c) {
-     NSLog(@"array[%d] = %@", c, [array objectAtIndex:c]);
+        NSLog(@"array[%d] = %@", c, [array objectAtIndex:c]);
      }
      
      [array release];
