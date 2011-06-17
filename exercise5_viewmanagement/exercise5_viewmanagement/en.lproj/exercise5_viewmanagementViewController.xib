@@ -45,7 +45,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="IBUILabel" id="102295396">
 						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">290</int>
 						<string key="NSFrame">{{139, 87}, {42, 21}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
@@ -68,10 +68,11 @@
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
+						<int key="IBUITextAlignment">1</int>
 					</object>
 					<object class="IBUIButton" id="652504241">
 						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">294</int>
 						<string key="NSFrame">{{20, 79}, {72, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
@@ -102,11 +103,10 @@
 					</object>
 					<object class="IBUIButton" id="932240031">
 						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{224, 79}, {81, 37}}</string>
+						<int key="NSvFlags">291</int>
+						<string key="NSFrame">{{228, 79}, {72, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
@@ -202,8 +202,8 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="102295396"/>
-							<reference ref="652504241"/>
 							<reference ref="932240031"/>
+							<reference ref="652504241"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
