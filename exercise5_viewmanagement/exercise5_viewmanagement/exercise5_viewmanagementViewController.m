@@ -85,6 +85,11 @@
     [self updateLabel:[MutableString retainCount]];
 }
 
+- (IBAction) resetButtonPressed {
+    [self.IVarStorage removeAllObjects];
+    [self updateLabel: [MutableString retainCount]];
+}
+
 - (void) updateLabel:(NSUInteger) count {
     self.CountLabel.text = [NSString stringWithFormat:@"%d",count];
 }

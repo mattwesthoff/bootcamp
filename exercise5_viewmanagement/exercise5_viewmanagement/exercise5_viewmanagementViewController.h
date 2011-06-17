@@ -22,6 +22,7 @@
 
 - (IBAction) retainButtonPressed;
 - (IBAction) releaseButtonPressed;
+- (IBAction) resetButtonPressed;
 - (void) updateLabel: (NSUInteger) count;
 
 @end
