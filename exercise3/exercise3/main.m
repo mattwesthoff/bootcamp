@@ -11,6 +11,13 @@
 int main (int argc, const char * argv[])
 {
     
+    
+    //NSZombieEnabled = YES in schema environment variables gives you better error messages for memory management
+    
+    //There are debugger commands
+    //po 0x1010410 prints out the object
+    //bt = backtrace, gets you file and line number where it broke
+    
     //I should've checked in the unfixed code, but oh well, here it is:
     /*
      
