@@ -274,7 +274,7 @@
 		<string>DVTIdentifier</string>
 		<string>DVTViewMagnitude</string>
 		<string></string>
-		<real>344</real>
+		<real>398</real>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -313,7 +313,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>454</real>
+		<real>400</real>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -1657,9 +1657,9 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>330018373.62623698</real>
-		<string>{0, 2023}</string>
-		<string>{740, 0}</string>
+		<real>330018501.83605802</real>
+		<string>{31, 2059}</string>
+		<string>{777, 0}</string>
 		<string>-application:didFinishLaunchingWithOptions:</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
@@ -2074,9 +2074,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>330018373.62568003</real>
-		<string>{0, 2023}</string>
-		<string>{740, 0}</string>
+		<real>330018501.83525002</real>
+		<string>{31, 2059}</string>
+		<string>{777, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
