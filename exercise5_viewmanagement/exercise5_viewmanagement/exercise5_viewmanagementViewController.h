@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface exercise5_viewmanagementViewController : UIViewController
-<UIActionSheetDelegate> {
+@interface exercise5_viewmanagementViewController : UIViewController <UIActionSheetDelegate> {
     IBOutlet UILabel* CountLabel;
     NSString* String;
     NSMutableString* MutableString;
