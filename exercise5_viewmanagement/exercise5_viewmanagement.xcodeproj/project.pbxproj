@@ -79,12 +79,10 @@
 		C95C87B713ABE28800858745 /* exercise5_viewmanagement */ = {
 			isa = PBXGroup;
 			children = (
-				C95C87C013ABE28800858745 /* exercise5_viewmanagementAppDelegate.h */,
-				C95C87C113ABE28800858745 /* exercise5_viewmanagementAppDelegate.m */,
-				C95C87C313ABE28800858745 /* MainWindow.xib */,
+				C9EBB44313ABFF3600581F0C /* Main */,
+				C9EBB44113ABFF2300581F0C /* Views */,
 				C95C87C613ABE28800858745 /* exercise5_viewmanagementViewController.h */,
 				C95C87C713ABE28800858745 /* exercise5_viewmanagementViewController.m */,
-				C95C87C913ABE28800858745 /* exercise5_viewmanagementViewController.xib */,
 				C95C87B813ABE28800858745 /* Supporting Files */,
 			);
 			path = exercise5_viewmanagement;
@@ -99,6 +97,24 @@
 				C95C87BE13ABE28800858745 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9EBB44113ABFF2300581F0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C95C87C913ABE28800858745 /* exercise5_viewmanagementViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C9EBB44313ABFF3600581F0C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C95C87C013ABE28800858745 /* exercise5_viewmanagementAppDelegate.h */,
+				C95C87C113ABE28800858745 /* exercise5_viewmanagementAppDelegate.m */,
+				C95C87C313ABE28800858745 /* MainWindow.xib */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +292,7 @@
 				C95C87D013ABE28800858745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
