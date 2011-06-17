@@ -17,8 +17,7 @@ int main (int argc, const char * argv[])
     
     v_ptr = &v;
     
-    for (int x = 0; x < 10; x++) {
-        (*v_ptr)++;
+    for (*v_ptr = 0; *v_ptr < 10; (*v_ptr)++) {
     }
     
     printf("counter = %d", v);
