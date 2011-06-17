@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9CAAFC513ABB49A00DAF802 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C9CAAFC413ABB49A00DAF802 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9CAAFBE13ABB49A00DAF802 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9CAAFC013ABB49A00DAF802 /* Exercise2_pointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exercise2_pointers; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CAAFC413ABB49A00DAF802 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C9CAAFC613ABB49A00DAF802 /* Exercise2_pointers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Exercise2_pointers.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9CAAFBD13ABB49A00DAF802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9CAAFB513ABB49A00DAF802 = {
+			isa = PBXGroup;
+			children = (
+				C9CAAFC313ABB49A00DAF802 /* Exercise2_pointers */,
+				C9CAAFC113ABB49A00DAF802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9CAAFC113ABB49A00DAF802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CAAFC013ABB49A00DAF802 /* Exercise2_pointers */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CAAFC313ABB49A00DAF802 /* Exercise2_pointers */ = {
+			isa = PBXGroup;
+			children = (
+				C9CAAFC413ABB49A00DAF802 /* main.c */,
+				C9CAAFC613ABB49A00DAF802 /* Exercise2_pointers.1 */,
+			);
+			path = Exercise2_pointers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CAAFBF13ABB49A00DAF802 /* Exercise2_pointers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CAAFC913ABB49A00DAF802 /* Build configuration list for PBXNativeTarget "Exercise2_pointers" */;
+			buildPhases = (
+				C9CAAFBC13ABB49A00DAF802 /* Sources */,
+				C9CAAFBD13ABB49A00DAF802 /* Frameworks */,
+				C9CAAFBE13ABB49A00DAF802 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Exercise2_pointers;
+			productName = Exercise2_pointers;
+			productReference = C9CAAFC013ABB49A00DAF802 /* Exercise2_pointers */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9CAAFB713ABB49A00DAF802 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C9CAAFBA13ABB49A00DAF802 /* Build configuration list for PBXProject "Exercise2_pointers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9CAAFB513ABB49A00DAF802;
+			productRefGroup = C9CAAFC113ABB49A00DAF802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CAAFBF13ABB49A00DAF802 /* Exercise2_pointers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9CAAFBC13ABB49A00DAF802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CAAFC513ABB49A00DAF802 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9CAAFC713ABB49A00DAF802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9CAAFC813ABB49A00DAF802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9CAAFCA13ABB49A00DAF802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9CAAFCB13ABB49A00DAF802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CAAFBA13ABB49A00DAF802 /* Build configuration list for PBXProject "Exercise2_pointers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CAAFC713ABB49A00DAF802 /* Debug */,
+				C9CAAFC813ABB49A00DAF802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CAAFC913ABB49A00DAF802 /* Build configuration list for PBXNativeTarget "Exercise2_pointers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CAAFCA13ABB49A00DAF802 /* Debug */,
+				C9CAAFCB13ABB49A00DAF802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9CAAFB713ABB49A00DAF802 /* Project object */;
+}
