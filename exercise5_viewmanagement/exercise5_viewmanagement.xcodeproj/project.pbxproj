@@ -81,8 +81,7 @@
 			children = (
 				C9EBB44313ABFF3600581F0C /* Main */,
 				C9EBB44113ABFF2300581F0C /* Views */,
-				C95C87C613ABE28800858745 /* exercise5_viewmanagementViewController.h */,
-				C95C87C713ABE28800858745 /* exercise5_viewmanagementViewController.m */,
+				C9EBB44413AC001800581F0C /* Controllers */,
 				C95C87B813ABE28800858745 /* Supporting Files */,
 			);
 			path = exercise5_viewmanagement;
@@ -115,6 +114,15 @@
 				C95C87C313ABE28800858745 /* MainWindow.xib */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		C9EBB44413AC001800581F0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C95C87C613ABE28800858745 /* exercise5_viewmanagementViewController.h */,
+				C95C87C713ABE28800858745 /* exercise5_viewmanagementViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
