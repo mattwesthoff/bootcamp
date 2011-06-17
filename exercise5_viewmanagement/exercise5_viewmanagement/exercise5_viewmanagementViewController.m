@@ -37,6 +37,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //using self. here is super important.  it's the difference between using the autoprop and using the member.
+    //This is also why the count starts at 2
+    //using the prop does a retain on what's passed in
+    
+    //if you want the count to be one, do:
+    /*
+        NSMutableString* temp = [[NSMutableString alloc] initWithString:@"a string"];
+        self.MutableString = temp;
+        [temp release];
+     */
     self.MutableString = [[NSMutableString alloc] initWithString:@"a string"];
     self.String = [[NSString alloc] initWithString:@"another string"];
     self.IVarStorage = [[NSMutableArray alloc] initWithCapacity:10];
