@@ -19,7 +19,7 @@ int main (int argc, const char * argv[])
     
     for (*v_ptr = 0; *v_ptr < 10; (*v_ptr)++) {}
     
-    printf("counter = %d", v);
+    printf("v = %d", v);
     
     return 0;
 }
