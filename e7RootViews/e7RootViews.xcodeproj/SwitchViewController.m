@@ -43,7 +43,8 @@
 {
 	if (self.GoodNewsViewController.view.superview == nil) {
 		if (self.GoodNewsViewController == nil) {
-			GoodNewsViewController *goodController = [[GoodNewsViewController alloc] initWithNibName:@"GoodNewsViewController" bundle:nil];
+			GoodNewsViewController *goodController = [[GoodNewsViewController alloc] 
+                                                      initWithNibName:@"GoodNewsViewController" bundle:nil];
 			self.GoodNewsViewController = goodController;
 			[goodController release];
 		}
@@ -54,7 +55,8 @@
     }
     else {
         if (self.BadNewsViewController == nil) {
-            BadNewsViewController *badController = [[BadNewsViewController alloc] initWithNibName:@"BadNewsViewController" bundle:nil];
+            BadNewsViewController *badController = [[BadNewsViewController alloc] 
+                                                    initWithNibName:@"BadNewsViewController" bundle:nil];
             self.BadNewsViewController = badController;
             [badController release];
         }
@@ -66,9 +68,7 @@
     
 }
 
- // Override to allow orientations other than the default portrait orientation.
  - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-     // Return YES for supported orientations.
      return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
  }
 

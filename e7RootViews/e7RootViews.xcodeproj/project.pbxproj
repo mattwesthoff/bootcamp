@@ -101,15 +101,8 @@
 				C9EBB46613AC109A00581F0C /* iPhone */,
 				C9EBB46D13AC109A00581F0C /* iPad */,
 				C9EBB45B13AC109A00581F0C /* Supporting Files */,
-				C9EEAA3413AC62D700775E6E /* BadNewsViewController.h */,
-				C9EEAA3513AC62D700775E6E /* BadNewsViewController.m */,
-				C9EEAA3613AC62D700775E6E /* BadNewsViewController.xib */,
-				C9EEAA3A13AC634A00775E6E /* GoodNewsViewController.h */,
-				C9EEAA3B13AC634A00775E6E /* GoodNewsViewController.m */,
-				C9EEAA3C13AC634A00775E6E /* GoodNewsViewController.xib */,
-				C9EBB47F13AC11DF00581F0C /* SwitchViewController.h */,
-				C9EBB48013AC11DF00581F0C /* SwitchViewController.m */,
-				C9EBB48113AC11DF00581F0C /* SwitchViewController.xib */,
+				C9F99B0213ACF9A4007925FF /* Views */,
+				C9F99B0413ACF9AD007925FF /* Controllers */,
 			);
 			path = e7RootViews;
 			sourceTree = "<group>";
@@ -152,6 +145,29 @@
 				C9EBB46413AC109A00581F0C /* e7RootViewsAppDelegate.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		C9F99B0213ACF9A4007925FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9EEAA3613AC62D700775E6E /* BadNewsViewController.xib */,
+				C9EEAA3C13AC634A00775E6E /* GoodNewsViewController.xib */,
+				C9EBB48113AC11DF00581F0C /* SwitchViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C9F99B0413ACF9AD007925FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9EEAA3413AC62D700775E6E /* BadNewsViewController.h */,
+				C9EEAA3513AC62D700775E6E /* BadNewsViewController.m */,
+				C9EEAA3A13AC634A00775E6E /* GoodNewsViewController.h */,
+				C9EEAA3B13AC634A00775E6E /* GoodNewsViewController.m */,
+				C9EBB47F13AC11DF00581F0C /* SwitchViewController.h */,
+				C9EBB48013AC11DF00581F0C /* SwitchViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
