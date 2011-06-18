@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9EBB45513AC109A00581F0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EBB45413AC109A00581F0C /* UIKit.framework */; };
+		C9EBB45713AC109A00581F0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EBB45613AC109A00581F0C /* Foundation.framework */; };
+		C9EBB45913AC109A00581F0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EBB45813AC109A00581F0C /* CoreGraphics.framework */; };
+		C9EBB45F13AC109A00581F0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9EBB45D13AC109A00581F0C /* InfoPlist.strings */; };
+		C9EBB46213AC109A00581F0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EBB46113AC109A00581F0C /* main.m */; };
+		C9EBB46513AC109A00581F0C /* e7RootViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EBB46413AC109A00581F0C /* e7RootViewsAppDelegate.m */; };
+		C9EBB46913AC109A00581F0C /* e7RootViewsAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EBB46813AC109A00581F0C /* e7RootViewsAppDelegate_iPhone.m */; };
+		C9EBB46C13AC109A00581F0C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EBB46A13AC109A00581F0C /* MainWindow_iPhone.xib */; };
+		C9EBB47013AC109A00581F0C /* e7RootViewsAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EBB46F13AC109A00581F0C /* e7RootViewsAppDelegate_iPad.m */; };
+		C9EBB47313AC109A00581F0C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EBB47113AC109A00581F0C /* MainWindow_iPad.xib */; };
+		C9EBB48213AC11DF00581F0C /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EBB48013AC11DF00581F0C /* SwitchViewController.m */; };
+		C9EBB48313AC11DF00581F0C /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EBB48113AC11DF00581F0C /* SwitchViewController.xib */; };
+		C9EEAA3713AC62D700775E6E /* BadNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EEAA3513AC62D700775E6E /* BadNewsViewController.m */; };
+		C9EEAA3813AC62D700775E6E /* BadNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EEAA3613AC62D700775E6E /* BadNewsViewController.xib */; };
+		C9EEAA3D13AC634A00775E6E /* GoodNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EEAA3B13AC634A00775E6E /* GoodNewsViewController.m */; };
+		C9EEAA3E13AC634A00775E6E /* GoodNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EEAA3C13AC634A00775E6E /* GoodNewsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9EBB45013AC109A00581F0C /* e7RootViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = e7RootViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EBB45413AC109A00581F0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9EBB45613AC109A00581F0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9EBB45813AC109A00581F0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9EBB45C13AC109A00581F0C /* e7RootViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "e7RootViews-Info.plist"; sourceTree = "<group>"; };
+		C9EBB45E13AC109A00581F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9EBB46013AC109A00581F0C /* e7RootViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "e7RootViews-Prefix.pch"; sourceTree = "<group>"; };
+		C9EBB46113AC109A00581F0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9EBB46313AC109A00581F0C /* e7RootViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = e7RootViewsAppDelegate.h; sourceTree = "<group>"; };
+		C9EBB46413AC109A00581F0C /* e7RootViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = e7RootViewsAppDelegate.m; sourceTree = "<group>"; };
+		C9EBB46713AC109A00581F0C /* e7RootViewsAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = e7RootViewsAppDelegate_iPhone.h; path = iPhone/e7RootViewsAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		C9EBB46813AC109A00581F0C /* e7RootViewsAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = e7RootViewsAppDelegate_iPhone.m; path = iPhone/e7RootViewsAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		C9EBB46B13AC109A00581F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		C9EBB46E13AC109A00581F0C /* e7RootViewsAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = e7RootViewsAppDelegate_iPad.h; path = iPad/e7RootViewsAppDelegate_iPad.h; sourceTree = "<group>"; };
+		C9EBB46F13AC109A00581F0C /* e7RootViewsAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = e7RootViewsAppDelegate_iPad.m; path = iPad/e7RootViewsAppDelegate_iPad.m; sourceTree = "<group>"; };
+		C9EBB47213AC109A00581F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		C9EBB47F13AC11DF00581F0C /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitchViewController.h; path = e7RootViews.xcodeproj/SwitchViewController.h; sourceTree = SOURCE_ROOT; };
+		C9EBB48013AC11DF00581F0C /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwitchViewController.m; path = e7RootViews.xcodeproj/SwitchViewController.m; sourceTree = SOURCE_ROOT; };
+		C9EBB48113AC11DF00581F0C /* SwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SwitchViewController.xib; path = e7RootViews.xcodeproj/SwitchViewController.xib; sourceTree = SOURCE_ROOT; };
+		C9EEAA3413AC62D700775E6E /* BadNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadNewsViewController.h; sourceTree = "<group>"; };
+		C9EEAA3513AC62D700775E6E /* BadNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadNewsViewController.m; sourceTree = "<group>"; };
+		C9EEAA3613AC62D700775E6E /* BadNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BadNewsViewController.xib; sourceTree = "<group>"; };
+		C9EEAA3A13AC634A00775E6E /* GoodNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodNewsViewController.h; sourceTree = "<group>"; };
+		C9EEAA3B13AC634A00775E6E /* GoodNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodNewsViewController.m; sourceTree = "<group>"; };
+		C9EEAA3C13AC634A00775E6E /* GoodNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodNewsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9EBB44D13AC109A00581F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EBB45513AC109A00581F0C /* UIKit.framework in Frameworks */,
+				C9EBB45713AC109A00581F0C /* Foundation.framework in Frameworks */,
+				C9EBB45913AC109A00581F0C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9EBB44513AC109A00581F0C = {
+			isa = PBXGroup;
+			children = (
+				C9EBB45A13AC109A00581F0C /* e7RootViews */,
+				C9EBB45313AC109A00581F0C /* Frameworks */,
+				C9EBB45113AC109A00581F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9EBB45113AC109A00581F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9EBB45013AC109A00581F0C /* e7RootViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9EBB45313AC109A00581F0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9EBB45413AC109A00581F0C /* UIKit.framework */,
+				C9EBB45613AC109A00581F0C /* Foundation.framework */,
+				C9EBB45813AC109A00581F0C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9EBB45A13AC109A00581F0C /* e7RootViews */ = {
+			isa = PBXGroup;
+			children = (
+				C9EBB47E13AC115000581F0C /* Main */,
+				C9EBB46613AC109A00581F0C /* iPhone */,
+				C9EBB46D13AC109A00581F0C /* iPad */,
+				C9EBB45B13AC109A00581F0C /* Supporting Files */,
+				C9EEAA3413AC62D700775E6E /* BadNewsViewController.h */,
+				C9EEAA3513AC62D700775E6E /* BadNewsViewController.m */,
+				C9EEAA3613AC62D700775E6E /* BadNewsViewController.xib */,
+				C9EEAA3A13AC634A00775E6E /* GoodNewsViewController.h */,
+				C9EEAA3B13AC634A00775E6E /* GoodNewsViewController.m */,
+				C9EEAA3C13AC634A00775E6E /* GoodNewsViewController.xib */,
+				C9EBB47F13AC11DF00581F0C /* SwitchViewController.h */,
+				C9EBB48013AC11DF00581F0C /* SwitchViewController.m */,
+				C9EBB48113AC11DF00581F0C /* SwitchViewController.xib */,
+			);
+			path = e7RootViews;
+			sourceTree = "<group>";
+		};
+		C9EBB45B13AC109A00581F0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9EBB45C13AC109A00581F0C /* e7RootViews-Info.plist */,
+				C9EBB45D13AC109A00581F0C /* InfoPlist.strings */,
+				C9EBB46013AC109A00581F0C /* e7RootViews-Prefix.pch */,
+				C9EBB46113AC109A00581F0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9EBB46613AC109A00581F0C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C9EBB46713AC109A00581F0C /* e7RootViewsAppDelegate_iPhone.h */,
+				C9EBB46813AC109A00581F0C /* e7RootViewsAppDelegate_iPhone.m */,
+				C9EBB46A13AC109A00581F0C /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		C9EBB46D13AC109A00581F0C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C9EBB46E13AC109A00581F0C /* e7RootViewsAppDelegate_iPad.h */,
+				C9EBB46F13AC109A00581F0C /* e7RootViewsAppDelegate_iPad.m */,
+				C9EBB47113AC109A00581F0C /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		C9EBB47E13AC115000581F0C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C9EBB46313AC109A00581F0C /* e7RootViewsAppDelegate.h */,
+				C9EBB46413AC109A00581F0C /* e7RootViewsAppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9EBB44F13AC109A00581F0C /* e7RootViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9EBB47613AC109A00581F0C /* Build configuration list for PBXNativeTarget "e7RootViews" */;
+			buildPhases = (
+				C9EBB44C13AC109A00581F0C /* Sources */,
+				C9EBB44D13AC109A00581F0C /* Frameworks */,
+				C9EBB44E13AC109A00581F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = e7RootViews;
+			productName = e7RootViews;
+			productReference = C9EBB45013AC109A00581F0C /* e7RootViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9EBB44713AC109A00581F0C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C9EBB44A13AC109A00581F0C /* Build configuration list for PBXProject "e7RootViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9EBB44513AC109A00581F0C;
+			productRefGroup = C9EBB45113AC109A00581F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9EBB44F13AC109A00581F0C /* e7RootViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9EBB44E13AC109A00581F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EBB45F13AC109A00581F0C /* InfoPlist.strings in Resources */,
+				C9EBB46C13AC109A00581F0C /* MainWindow_iPhone.xib in Resources */,
+				C9EBB47313AC109A00581F0C /* MainWindow_iPad.xib in Resources */,
+				C9EBB48313AC11DF00581F0C /* SwitchViewController.xib in Resources */,
+				C9EEAA3813AC62D700775E6E /* BadNewsViewController.xib in Resources */,
+				C9EEAA3E13AC634A00775E6E /* GoodNewsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9EBB44C13AC109A00581F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EBB46213AC109A00581F0C /* main.m in Sources */,
+				C9EBB46513AC109A00581F0C /* e7RootViewsAppDelegate.m in Sources */,
+				C9EBB46913AC109A00581F0C /* e7RootViewsAppDelegate_iPhone.m in Sources */,
+				C9EBB47013AC109A00581F0C /* e7RootViewsAppDelegate_iPad.m in Sources */,
+				C9EBB48213AC11DF00581F0C /* SwitchViewController.m in Sources */,
+				C9EEAA3713AC62D700775E6E /* BadNewsViewController.m in Sources */,
+				C9EEAA3D13AC634A00775E6E /* GoodNewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9EBB45D13AC109A00581F0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9EBB45E13AC109A00581F0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9EBB46A13AC109A00581F0C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9EBB46B13AC109A00581F0C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C9EBB47113AC109A00581F0C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9EBB47213AC109A00581F0C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9EBB47413AC109A00581F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9EBB47513AC109A00581F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9EBB47713AC109A00581F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "e7RootViews/e7RootViews-Prefix.pch";
+				INFOPLIST_FILE = "e7RootViews/e7RootViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9EBB47813AC109A00581F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "e7RootViews/e7RootViews-Prefix.pch";
+				INFOPLIST_FILE = "e7RootViews/e7RootViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9EBB44A13AC109A00581F0C /* Build configuration list for PBXProject "e7RootViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EBB47413AC109A00581F0C /* Debug */,
+				C9EBB47513AC109A00581F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9EBB47613AC109A00581F0C /* Build configuration list for PBXNativeTarget "e7RootViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EBB47713AC109A00581F0C /* Debug */,
+				C9EBB47813AC109A00581F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9EBB44713AC109A00581F0C /* Project object */;
+}
