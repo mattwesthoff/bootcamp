@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 
 @interface BeesViewController : UIViewController {
-    
+    SystemSoundID _shakeSoundId;
 }
+
+- (IBAction) playShake;
+- (IBAction) vibrate;
 
 @end

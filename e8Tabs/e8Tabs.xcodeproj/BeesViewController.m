@@ -8,7 +8,6 @@
 
 #import "BeesViewController.h"
 
-
 @implementation BeesViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -20,8 +19,19 @@
     return self;
 }
 
+- (IBAction) playShake
+{
+    AudioServicesPlaySystemSound(_shakeSoundId);
+}
+
+- (IBAction) vibrate
+{
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+}
+
 - (void)dealloc
 {
+    AudioServicesDisposeSystemSoundID(_shakeSoundId);
     [super dealloc];
 }
 
@@ -39,6 +49,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    NSString* path = [[NSBundle mainBundle] pathForResource:@"shaker" ofType:@"wav"];
+    AudioServicesCreateSystemSoundID((CFURLRef) [NSURL fileURLWithPath:path], &_shakeSoundId);
 }
 
 - (void)viewDidUnload
