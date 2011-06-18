@@ -10,6 +10,7 @@
 		C903C29D13AD1DAA00F0FE75 /* waffle_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C903C29C13AD1DAA00F0FE75 /* waffle_icon.png */; };
 		C903C2A013AD305800F0FE75 /* shaker.wav in Resources */ = {isa = PBXBuildFile; fileRef = C903C29F13AD305800F0FE75 /* shaker.wav */; };
 		C903C2A413AD30C500F0FE75 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C903C2A313AD30C500F0FE75 /* AudioToolbox.framework */; };
+		C903C2AC13AD37D600F0FE75 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C903C2AB13AD37D600F0FE75 /* CoreLocation.framework */; };
 		C904B8CE13AD16F20010A68C /* WafflesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C904B8C913AD16F20010A68C /* WafflesViewController.m */; };
 		C904B8CF13AD16F20010A68C /* WafflesView-ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CB13AD16F20010A68C /* WafflesView-ipad.xib */; };
 		C904B8D013AD16F20010A68C /* TacosView-ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CC13AD16F20010A68C /* TacosView-ipad.xib */; };
@@ -31,6 +32,7 @@
 		C903C29C13AD1DAA00F0FE75 /* waffle_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = waffle_icon.png; path = images/waffle_icon.png; sourceTree = "<group>"; };
 		C903C29F13AD305800F0FE75 /* shaker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shaker.wav; path = sounds/shaker.wav; sourceTree = "<group>"; };
 		C903C2A313AD30C500F0FE75 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C903C2AB13AD37D600F0FE75 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C904B8C913AD16F20010A68C /* WafflesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WafflesViewController.m; path = e8Tabs/WafflesViewController.m; sourceTree = "<group>"; };
 		C904B8CA13AD16F20010A68C /* WafflesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WafflesViewController.h; path = e8Tabs/WafflesViewController.h; sourceTree = "<group>"; };
 		C904B8CB13AD16F20010A68C /* WafflesView-ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "WafflesView-ipad.xib"; path = "e8Tabs/WafflesView-ipad.xib"; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C903C2AC13AD37D600F0FE75 /* CoreLocation.framework in Frameworks */,
 				C903C2A413AD30C500F0FE75 /* AudioToolbox.framework in Frameworks */,
 				C9F99B1513AD1119007925FF /* UIKit.framework in Frameworks */,
 				C9F99B1713AD1119007925FF /* Foundation.framework in Frameworks */,
@@ -121,6 +124,7 @@
 		C9F99B1313AD1119007925FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C903C2AB13AD37D600F0FE75 /* CoreLocation.framework */,
 				C903C2A313AD30C500F0FE75 /* AudioToolbox.framework */,
 				C9F99B1413AD1119007925FF /* UIKit.framework */,
 				C9F99B1613AD1119007925FF /* Foundation.framework */,

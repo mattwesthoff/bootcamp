@@ -11,6 +11,9 @@
 
 @implementation TacosViewController
 
+@synthesize Lat = _lat, Long = _long, Alt = _alt, VertAcc = _vertAcc, HorzAcc = _horzAcc;
+@synthesize StartDistance = _startDistance, LocationManager = _locationManager;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -22,6 +25,13 @@
 
 - (void)dealloc
 {
+    [_lat release];
+    [_long release];
+    [_alt release];
+    [_vertAcc release];
+    [_horzAcc release];
+    [_locationManager release];
+    [_startDistance release];
     [super dealloc];
 }
 
@@ -39,10 +49,53 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    CLLocationManager* locmgr = [[CLLocationManager alloc] init];
+    self.LocationManager = locmgr;
+    [locmgr release];
+    
+    self.LocationManager.delegate = self;
+    self.LocationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    [self.LocationManager startUpdatingLocation];
+}
+-(void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
+{    
+    self.Lat.text = [NSString stringWithFormat:@"%g", newLocation.coordinate.latitude];
+    self.Long.text = [NSString stringWithFormat:@"%g", newLocation.coordinate.longitude];
+    self.Alt.text = [NSString stringWithFormat:@"%g", newLocation.altitude];
+    self.VertAcc.text = [NSString stringWithFormat:@"%g", newLocation.verticalAccuracy];
+    self.HorzAcc.text = [NSString stringWithFormat:@"%g", newLocation.horizontalAccuracy];
+    
+    //if ([self StartDistance] == nil) {
+    //    [self setStartDistance:newLocation];
+    //}
+    
+    if (self.StartDistance == nil) {
+        self.StartDistance = newLocation;
+    }
+    
+    CLLocationDistance dist = [newLocation distanceFromLocation:self.StartDistance];
+    NSLog(@"%gm", dist);
+    
+}
+
+- (void) locationManager:(CLLocationManager*)manager didFailWithError:(NSError *)error
+{
+    if ([error code] == kCLErrorLocationUnknown){
+        NSLog(@"location unknown!");
+    }
+    else if ([error code] == kCLErrorDenied) {
+        NSLog(@"user denied");
+    }
 }
 
 - (void)viewDidUnload
 {
+    self.Lat = nil;
+    self.Long = nil;
+    self.Alt = nil;
+    self.VertAcc = nil;
+    self.HorzAcc = nil;
+    [self.LocationManager stopUpdatingLocation];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
