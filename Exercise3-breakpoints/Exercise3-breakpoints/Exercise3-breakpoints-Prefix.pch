@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Exercise3-breakpoints' target in the 'Exercise3-breakpoints' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

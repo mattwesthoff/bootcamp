@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9CAB00313ABBCD900DAF802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CAB00213ABBCD900DAF802 /* Foundation.framework */; };
+		C9CAB00613ABBCD900DAF802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CAB00513ABBCD900DAF802 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9CAAFFC13ABBCD900DAF802 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9CAAFFE13ABBCD900DAF802 /* Exercise3-breakpoints */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exercise3-breakpoints"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CAB00213ABBCD900DAF802 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9CAB00513ABBCD900DAF802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9CAB00813ABBCD900DAF802 /* Exercise3-breakpoints-Prefix.pch */ = {isa = PBXFileReference; path = "Exercise3-breakpoints-Prefix.pch"; sourceTree = "<group>"; };
+		C9CAB00913ABBCD900DAF802 /* Exercise3_breakpoints.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Exercise3_breakpoints.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9CAAFFB13ABBCD900DAF802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CAB00313ABBCD900DAF802 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9CAAFF313ABBCD800DAF802 = {
+			isa = PBXGroup;
+			children = (
+				C9CAB00413ABBCD900DAF802 /* Exercise3-breakpoints */,
+				C9CAB00113ABBCD900DAF802 /* Frameworks */,
+				C9CAAFFF13ABBCD900DAF802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9CAAFFF13ABBCD900DAF802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CAAFFE13ABBCD900DAF802 /* Exercise3-breakpoints */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CAB00113ABBCD900DAF802 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CAB00213ABBCD900DAF802 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CAB00413ABBCD900DAF802 /* Exercise3-breakpoints */ = {
+			isa = PBXGroup;
+			children = (
+				C9CAB00513ABBCD900DAF802 /* main.m */,
+				C9CAB00913ABBCD900DAF802 /* Exercise3_breakpoints.1 */,
+				C9CAB00713ABBCD900DAF802 /* Supporting Files */,
+			);
+			path = "Exercise3-breakpoints";
+			sourceTree = "<group>";
+		};
+		C9CAB00713ABBCD900DAF802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9CAB00813ABBCD900DAF802 /* Exercise3-breakpoints-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CAAFFD13ABBCD900DAF802 /* Exercise3-breakpoints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CAB00C13ABBCD900DAF802 /* Build configuration list for PBXNativeTarget "Exercise3-breakpoints" */;
+			buildPhases = (
+				C9CAAFFA13ABBCD900DAF802 /* Sources */,
+				C9CAAFFB13ABBCD900DAF802 /* Frameworks */,
+				C9CAAFFC13ABBCD900DAF802 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exercise3-breakpoints";
+			productName = "Exercise3-breakpoints";
+			productReference = C9CAAFFE13ABBCD900DAF802 /* Exercise3-breakpoints */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9CAAFF513ABBCD800DAF802 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C9CAAFF813ABBCD800DAF802 /* Build configuration list for PBXProject "Exercise3-breakpoints" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9CAAFF313ABBCD800DAF802;
+			productRefGroup = C9CAAFFF13ABBCD900DAF802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CAAFFD13ABBCD900DAF802 /* Exercise3-breakpoints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9CAAFFA13ABBCD900DAF802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CAB00613ABBCD900DAF802 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9CAB00A13ABBCD900DAF802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9CAB00B13ABBCD900DAF802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9CAB00D13ABBCD900DAF802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise3-breakpoints/Exercise3-breakpoints-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9CAB00E13ABBCD900DAF802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise3-breakpoints/Exercise3-breakpoints-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CAAFF813ABBCD800DAF802 /* Build configuration list for PBXProject "Exercise3-breakpoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CAB00A13ABBCD900DAF802 /* Debug */,
+				C9CAB00B13ABBCD900DAF802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CAB00C13ABBCD900DAF802 /* Build configuration list for PBXNativeTarget "Exercise3-breakpoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CAB00D13ABBCD900DAF802 /* Debug */,
+				C9CAB00E13ABBCD900DAF802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9CAAFF513ABBCD800DAF802 /* Project object */;
+}
