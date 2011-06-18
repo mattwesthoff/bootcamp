@@ -15,6 +15,7 @@
 
 @synthesize BadNewsViewController = _badNewsViewController;
 @synthesize GoodNewsViewController = _goodNewsViewController;
+@synthesize GestureRecognizer = _gestureRecognizer;
 
 - (void)viewDidLoad {
 	
@@ -23,12 +24,24 @@
     
 	[self.view insertSubview:badController.view atIndex:0];
 	[badController release];
-	
+    
+    UISwipeGestureRecognizer* gr = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(switchView:)];
+    self.GestureRecognizer = gr;
+    [gr release];
+    
+    self.GestureRecognizer.direction = UISwipeGestureRecognizerDirectionUp;
+    //This is really annoying on the simulator, alt-shift does it
+    //self.GestureRecognizer.numberOfTouchesRequired = 2;
+
+    [self.view addGestureRecognizer:self.GestureRecognizer];
+
 	[super viewDidLoad];
 }
 
 -(IBAction) switchView:(id)sender
 {
+    //This determines which view needs to be displayed
+    //superview is only set if the view is onscreen
 	if (self.GoodNewsViewController.view.superview == nil) {
 		if (self.GoodNewsViewController == nil) {
 			GoodNewsViewController *goodController = [[GoodNewsViewController alloc] 
@@ -36,10 +49,9 @@
 			self.GoodNewsViewController = goodController;
 			[goodController release];
 		}
-		
-        [self.BadNewsViewController.view removeFromSuperview];
-        [self.view insertSubview:self.GoodNewsViewController.view atIndex:0];
         
+        [self animateViewChange:self.GoodNewsViewController.view andHideView:self.BadNewsViewController.view withTransition:UIViewAnimationTransitionCurlUp];
+        self.GestureRecognizer.direction = UISwipeGestureRecognizerDirectionDown;
     }
     else {
         if (self.BadNewsViewController == nil) {
@@ -49,11 +61,22 @@
             [badController release];
         }
         
-        [self.GoodNewsViewController.view removeFromSuperview];
-        [self.view insertSubview:self.BadNewsViewController.view atIndex:0];
-        
+        [self animateViewChange:self.BadNewsViewController.view andHideView:self.GoodNewsViewController.view withTransition:UIViewAnimationTransitionCurlDown];
+        self.GestureRecognizer.direction = UISwipeGestureRecognizerDirectionUp;
     }
     
+}
+
+- (void) animateViewChange:(UIView*)viewToShow andHideView:(UIView*)viewToHide withTransition:(UIViewAnimationTransition) transition{
+    [UIView beginAnimations:@"View Curl" context:nil];
+    
+    [viewToHide removeFromSuperview];
+    [self.view insertSubview:viewToShow atIndex:0];
+    
+    [UIView setAnimationDuration:1.00];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+    [UIView setAnimationTransition:transition forView:self.view cache:YES];
+    [UIView commitAnimations];
 }
 
  - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -62,6 +85,16 @@
 
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
     //here is where I would fix the view that isn't shown
+    //This determines which view needs to be displayed
+    //superview is only set if the view is onscreen
+	if (self.GoodNewsViewController.view.superview == nil)
+    {
+        //rotate goodnews
+    } 
+    else
+    {
+        //rotate badnews
+    }
 }
 
 - (void)didReceiveMemoryWarning {

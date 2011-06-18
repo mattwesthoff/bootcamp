@@ -14,11 +14,14 @@
 @interface SwitchViewController : UIViewController {
     BadNewsViewController* _badNewsViewController;
     GoodNewsViewController* _goodNewsViewController;
+    UISwipeGestureRecognizer* _gestureRecognizer;
 }
 
 @property (nonatomic, retain) BadNewsViewController* BadNewsViewController;
 @property (nonatomic, retain) GoodNewsViewController* GoodNewsViewController;
+@property (nonatomic, retain) UISwipeGestureRecognizer* GestureRecognizer;
 
 - (IBAction) switchView:(id)sender;
+- (void) animateViewChange:(UIView*)viewToShow andHideView:(UIView*)viewToHide withTransition:(UIViewAnimationTransition) transition;
 
 @end
