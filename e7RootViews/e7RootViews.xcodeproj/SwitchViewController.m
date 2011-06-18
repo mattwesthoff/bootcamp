@@ -31,9 +31,9 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
-	BadNewsViewController *badController = [[BadNewsViewController alloc] initWithNibName:@"BadNewsView" bundle:nil];
+	BadNewsViewController *badController = [[BadNewsViewController alloc] initWithNibName:@"BadNewsViewController" bundle:nil];
 	self.BadNewsViewController = badController;
-	//[self.view insertSubview:badController.view atIndex:0];
+	[self.view insertSubview:badController.view atIndex:0];
 	[badController release];
 	
 	[super viewDidLoad];
@@ -43,7 +43,7 @@
 {
 	if (self.GoodNewsViewController.view.superview == nil) {
 		if (self.GoodNewsViewController == nil) {
-			GoodNewsViewController *goodController = [[GoodNewsViewController alloc] initWithNibName:@"GoodNewsView" bundle:nil];
+			GoodNewsViewController *goodController = [[GoodNewsViewController alloc] initWithNibName:@"GoodNewsViewController" bundle:nil];
 			self.GoodNewsViewController = goodController;
 			[goodController release];
 		}
@@ -54,7 +54,7 @@
     }
     else {
         if (self.BadNewsViewController == nil) {
-            BadNewsViewController *badController = [[BadNewsViewController alloc] initWithNibName:@"BadNewsView" bundle:nil];
+            BadNewsViewController *badController = [[BadNewsViewController alloc] initWithNibName:@"BadNewsViewController" bundle:nil];
             self.BadNewsViewController = badController;
             [badController release];
         }
