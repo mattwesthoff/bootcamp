@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@interface WafflesViewController : UIViewController {
+@interface WafflesViewController : UIViewController <UITextFieldDelegate> {
     
 }
+@property (nonatomic, retain) IBOutlet UITextField* txtData;
+
+- (IBAction) saveData;
 
 @end

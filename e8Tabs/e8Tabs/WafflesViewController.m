@@ -8,8 +8,10 @@
 
 #import "WafflesViewController.h"
 
-
 @implementation WafflesViewController
+
+@synthesize txtData = _txtData;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,6 +24,7 @@
 
 - (void)dealloc
 {
+    [_txtData release];
     [super dealloc];
 }
 
@@ -33,17 +36,32 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+-(BOOL) textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+
+- (IBAction) saveData {
+    NSUserDefaults* settings = [NSUserDefaults standardUserDefaults];
+    [settings setObject:self.txtData.text forKey:@"userData"];
+    [settings synchronize];
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    NSUserDefaults* settings = [NSUserDefaults standardUserDefaults];
+    self.txtData.text = [settings stringForKey:@"userData"];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    self.txtData = nil;
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }

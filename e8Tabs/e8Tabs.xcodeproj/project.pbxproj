@@ -172,8 +172,8 @@
 		C9F99B4913AD123B007925FF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C904B8C913AD16F20010A68C /* WafflesViewController.m */,
 				C904B8CA13AD16F20010A68C /* WafflesViewController.h */,
+				C904B8C913AD16F20010A68C /* WafflesViewController.m */,
 				C9F99B4213AD121C007925FF /* BeesViewController.h */,
 				C9F99B4313AD121C007925FF /* BeesViewController.m */,
 				C9F99B3313AD11C3007925FF /* TacosViewController.h */,
