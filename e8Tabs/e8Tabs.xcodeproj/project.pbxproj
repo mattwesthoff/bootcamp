@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C903C29D13AD1DAA00F0FE75 /* waffle_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C903C29C13AD1DAA00F0FE75 /* waffle_icon.png */; };
+		C904B8CE13AD16F20010A68C /* WafflesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C904B8C913AD16F20010A68C /* WafflesViewController.m */; };
+		C904B8CF13AD16F20010A68C /* WafflesView_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CB13AD16F20010A68C /* WafflesView_ipad.xib */; };
+		C904B8D013AD16F20010A68C /* TacosView_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CC13AD16F20010A68C /* TacosView_ipad.xib */; };
+		C904B8D113AD16F20010A68C /* BeesView_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CD13AD16F20010A68C /* BeesView_ipad.xib */; };
+		C904B8D713AD1B110010A68C /* taco_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C904B8D613AD1B110010A68C /* taco_icon.png */; };
+		C904B8D913AD1B990010A68C /* bee_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C904B8D813AD1B990010A68C /* bee_icon.png */; };
+		C9F99B1513AD1119007925FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F99B1413AD1119007925FF /* UIKit.framework */; };
+		C9F99B1713AD1119007925FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F99B1613AD1119007925FF /* Foundation.framework */; };
+		C9F99B1913AD1119007925FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F99B1813AD1119007925FF /* CoreGraphics.framework */; };
+		C9F99B1F13AD1119007925FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9F99B1D13AD1119007925FF /* InfoPlist.strings */; };
+		C9F99B2213AD1119007925FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F99B2113AD1119007925FF /* main.m */; };
+		C9F99B2513AD1119007925FF /* e8TabsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F99B2413AD1119007925FF /* e8TabsAppDelegate.m */; };
+		C9F99B2813AD1119007925FF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F99B2613AD1119007925FF /* MainWindow.xib */; };
+		C9F99B3613AD11C3007925FF /* TacosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F99B3413AD11C3007925FF /* TacosViewController.m */; };
+		C9F99B4513AD121C007925FF /* BeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F99B4313AD121C007925FF /* BeesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C903C29C13AD1DAA00F0FE75 /* waffle_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = waffle_icon.png; path = images/waffle_icon.png; sourceTree = "<group>"; };
+		C904B8C913AD16F20010A68C /* WafflesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WafflesViewController.m; path = e8Tabs/WafflesViewController.m; sourceTree = "<group>"; };
+		C904B8CA13AD16F20010A68C /* WafflesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WafflesViewController.h; path = e8Tabs/WafflesViewController.h; sourceTree = "<group>"; };
+		C904B8CB13AD16F20010A68C /* WafflesView_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WafflesView_ipad.xib; path = e8Tabs/WafflesView_ipad.xib; sourceTree = "<group>"; };
+		C904B8CC13AD16F20010A68C /* TacosView_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TacosView_ipad.xib; path = e8Tabs/TacosView_ipad.xib; sourceTree = "<group>"; };
+		C904B8CD13AD16F20010A68C /* BeesView_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BeesView_ipad.xib; path = e8Tabs/BeesView_ipad.xib; sourceTree = "<group>"; };
+		C904B8D613AD1B110010A68C /* taco_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taco_icon.png; path = images/taco_icon.png; sourceTree = "<group>"; };
+		C904B8D813AD1B990010A68C /* bee_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bee_icon.png; path = images/bee_icon.png; sourceTree = "<group>"; };
+		C9F99B1013AD1119007925FF /* e8Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = e8Tabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F99B1413AD1119007925FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9F99B1613AD1119007925FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9F99B1813AD1119007925FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9F99B1C13AD1119007925FF /* e8Tabs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "e8Tabs-Info.plist"; sourceTree = "<group>"; };
+		C9F99B1E13AD1119007925FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9F99B2013AD1119007925FF /* e8Tabs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "e8Tabs-Prefix.pch"; sourceTree = "<group>"; };
+		C9F99B2113AD1119007925FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9F99B2313AD1119007925FF /* e8TabsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = e8TabsAppDelegate.h; sourceTree = "<group>"; };
+		C9F99B2413AD1119007925FF /* e8TabsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = e8TabsAppDelegate.m; sourceTree = "<group>"; };
+		C9F99B2713AD1119007925FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C9F99B3313AD11C3007925FF /* TacosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TacosViewController.h; path = e8Tabs.xcodeproj/TacosViewController.h; sourceTree = "<group>"; };
+		C9F99B3413AD11C3007925FF /* TacosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TacosViewController.m; path = e8Tabs.xcodeproj/TacosViewController.m; sourceTree = "<group>"; };
+		C9F99B4213AD121C007925FF /* BeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeesViewController.h; path = e8Tabs.xcodeproj/BeesViewController.h; sourceTree = "<group>"; };
+		C9F99B4313AD121C007925FF /* BeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeesViewController.m; path = e8Tabs.xcodeproj/BeesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9F99B0D13AD1119007925FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F99B1513AD1119007925FF /* UIKit.framework in Frameworks */,
+				C9F99B1713AD1119007925FF /* Foundation.framework in Frameworks */,
+				C9F99B1913AD1119007925FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C904B8D313AD19560010A68C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C903C29C13AD1DAA00F0FE75 /* waffle_icon.png */,
+				C904B8D813AD1B990010A68C /* bee_icon.png */,
+				C904B8D613AD1B110010A68C /* taco_icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C9F99B0513AD1119007925FF = {
+			isa = PBXGroup;
+			children = (
+				C9F99B4913AD123B007925FF /* Controllers */,
+				C9F99B4813AD1231007925FF /* Views */,
+				C9F99B1A13AD1119007925FF /* Main */,
+				C9F99B1313AD1119007925FF /* Frameworks */,
+				C9F99B1113AD1119007925FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9F99B1113AD1119007925FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9F99B1013AD1119007925FF /* e8Tabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9F99B1313AD1119007925FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F99B1413AD1119007925FF /* UIKit.framework */,
+				C9F99B1613AD1119007925FF /* Foundation.framework */,
+				C9F99B1813AD1119007925FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F99B1A13AD1119007925FF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C9F99B2313AD1119007925FF /* e8TabsAppDelegate.h */,
+				C9F99B2413AD1119007925FF /* e8TabsAppDelegate.m */,
+				C9F99B1B13AD1119007925FF /* Supporting Files */,
+			);
+			name = Main;
+			path = e8Tabs;
+			sourceTree = "<group>";
+		};
+		C9F99B1B13AD1119007925FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F99B1C13AD1119007925FF /* e8Tabs-Info.plist */,
+				C9F99B1D13AD1119007925FF /* InfoPlist.strings */,
+				C9F99B2013AD1119007925FF /* e8Tabs-Prefix.pch */,
+				C9F99B2113AD1119007925FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9F99B4813AD1231007925FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C904B8D313AD19560010A68C /* Images */,
+				C904B8CB13AD16F20010A68C /* WafflesView_ipad.xib */,
+				C904B8CC13AD16F20010A68C /* TacosView_ipad.xib */,
+				C904B8CD13AD16F20010A68C /* BeesView_ipad.xib */,
+				C9F99B2613AD1119007925FF /* MainWindow.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C9F99B4913AD123B007925FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9F99B4213AD121C007925FF /* BeesViewController.h */,
+				C904B8C913AD16F20010A68C /* WafflesViewController.m */,
+				C904B8CA13AD16F20010A68C /* WafflesViewController.h */,
+				C9F99B4313AD121C007925FF /* BeesViewController.m */,
+				C9F99B3313AD11C3007925FF /* TacosViewController.h */,
+				C9F99B3413AD11C3007925FF /* TacosViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9F99B0F13AD1119007925FF /* e8Tabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F99B2B13AD1119007925FF /* Build configuration list for PBXNativeTarget "e8Tabs" */;
+			buildPhases = (
+				C9F99B0C13AD1119007925FF /* Sources */,
+				C9F99B0D13AD1119007925FF /* Frameworks */,
+				C9F99B0E13AD1119007925FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = e8Tabs;
+			productName = e8Tabs;
+			productReference = C9F99B1013AD1119007925FF /* e8Tabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9F99B0713AD1119007925FF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C9F99B0A13AD1119007925FF /* Build configuration list for PBXProject "e8Tabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9F99B0513AD1119007925FF;
+			productRefGroup = C9F99B1113AD1119007925FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9F99B0F13AD1119007925FF /* e8Tabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9F99B0E13AD1119007925FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F99B1F13AD1119007925FF /* InfoPlist.strings in Resources */,
+				C9F99B2813AD1119007925FF /* MainWindow.xib in Resources */,
+				C904B8CF13AD16F20010A68C /* WafflesView_ipad.xib in Resources */,
+				C904B8D013AD16F20010A68C /* TacosView_ipad.xib in Resources */,
+				C904B8D113AD16F20010A68C /* BeesView_ipad.xib in Resources */,
+				C904B8D713AD1B110010A68C /* taco_icon.png in Resources */,
+				C904B8D913AD1B990010A68C /* bee_icon.png in Resources */,
+				C903C29D13AD1DAA00F0FE75 /* waffle_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9F99B0C13AD1119007925FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F99B2213AD1119007925FF /* main.m in Sources */,
+				C9F99B2513AD1119007925FF /* e8TabsAppDelegate.m in Sources */,
+				C9F99B3613AD11C3007925FF /* TacosViewController.m in Sources */,
+				C9F99B4513AD121C007925FF /* BeesViewController.m in Sources */,
+				C904B8CE13AD16F20010A68C /* WafflesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9F99B1D13AD1119007925FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F99B1E13AD1119007925FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9F99B2613AD1119007925FF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F99B2713AD1119007925FF /* en */,
+			);
+			name = MainWindow.xib;
+			path = e8Tabs;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9F99B2913AD1119007925FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C9F99B2A13AD1119007925FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C9F99B2C13AD1119007925FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "e8Tabs/e8Tabs-Prefix.pch";
+				INFOPLIST_FILE = "e8Tabs/e8Tabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9F99B2D13AD1119007925FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "e8Tabs/e8Tabs-Prefix.pch";
+				INFOPLIST_FILE = "e8Tabs/e8Tabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9F99B0A13AD1119007925FF /* Build configuration list for PBXProject "e8Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F99B2913AD1119007925FF /* Debug */,
+				C9F99B2A13AD1119007925FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9F99B2B13AD1119007925FF /* Build configuration list for PBXNativeTarget "e8Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F99B2C13AD1119007925FF /* Debug */,
+				C9F99B2D13AD1119007925FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9F99B0713AD1119007925FF /* Project object */;
+}
