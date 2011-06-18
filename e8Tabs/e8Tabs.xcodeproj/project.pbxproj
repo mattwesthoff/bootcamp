@@ -11,9 +11,9 @@
 		C903C2A013AD305800F0FE75 /* shaker.wav in Resources */ = {isa = PBXBuildFile; fileRef = C903C29F13AD305800F0FE75 /* shaker.wav */; };
 		C903C2A413AD30C500F0FE75 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C903C2A313AD30C500F0FE75 /* AudioToolbox.framework */; };
 		C904B8CE13AD16F20010A68C /* WafflesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C904B8C913AD16F20010A68C /* WafflesViewController.m */; };
-		C904B8CF13AD16F20010A68C /* WafflesView_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CB13AD16F20010A68C /* WafflesView_ipad.xib */; };
-		C904B8D013AD16F20010A68C /* TacosView_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CC13AD16F20010A68C /* TacosView_ipad.xib */; };
-		C904B8D113AD16F20010A68C /* BeesView_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CD13AD16F20010A68C /* BeesView_ipad.xib */; };
+		C904B8CF13AD16F20010A68C /* WafflesView-ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CB13AD16F20010A68C /* WafflesView-ipad.xib */; };
+		C904B8D013AD16F20010A68C /* TacosView-ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CC13AD16F20010A68C /* TacosView-ipad.xib */; };
+		C904B8D113AD16F20010A68C /* BeesView-ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C904B8CD13AD16F20010A68C /* BeesView-ipad.xib */; };
 		C904B8D713AD1B110010A68C /* taco_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C904B8D613AD1B110010A68C /* taco_icon.png */; };
 		C904B8D913AD1B990010A68C /* bee_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C904B8D813AD1B990010A68C /* bee_icon.png */; };
 		C9F99B1513AD1119007925FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F99B1413AD1119007925FF /* UIKit.framework */; };
@@ -22,7 +22,7 @@
 		C9F99B1F13AD1119007925FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9F99B1D13AD1119007925FF /* InfoPlist.strings */; };
 		C9F99B2213AD1119007925FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F99B2113AD1119007925FF /* main.m */; };
 		C9F99B2513AD1119007925FF /* e8TabsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F99B2413AD1119007925FF /* e8TabsAppDelegate.m */; };
-		C9F99B2813AD1119007925FF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F99B2613AD1119007925FF /* MainWindow.xib */; };
+		C9F99B2813AD1119007925FF /* MainWindow-ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F99B2613AD1119007925FF /* MainWindow-ipad.xib */; };
 		C9F99B3613AD11C3007925FF /* TacosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F99B3413AD11C3007925FF /* TacosViewController.m */; };
 		C9F99B4513AD121C007925FF /* BeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F99B4313AD121C007925FF /* BeesViewController.m */; };
 /* End PBXBuildFile section */
@@ -33,9 +33,9 @@
 		C903C2A313AD30C500F0FE75 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C904B8C913AD16F20010A68C /* WafflesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WafflesViewController.m; path = e8Tabs/WafflesViewController.m; sourceTree = "<group>"; };
 		C904B8CA13AD16F20010A68C /* WafflesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WafflesViewController.h; path = e8Tabs/WafflesViewController.h; sourceTree = "<group>"; };
-		C904B8CB13AD16F20010A68C /* WafflesView_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WafflesView_ipad.xib; path = e8Tabs/WafflesView_ipad.xib; sourceTree = "<group>"; };
-		C904B8CC13AD16F20010A68C /* TacosView_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TacosView_ipad.xib; path = e8Tabs/TacosView_ipad.xib; sourceTree = "<group>"; };
-		C904B8CD13AD16F20010A68C /* BeesView_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BeesView_ipad.xib; path = e8Tabs/BeesView_ipad.xib; sourceTree = "<group>"; };
+		C904B8CB13AD16F20010A68C /* WafflesView-ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "WafflesView-ipad.xib"; path = "e8Tabs/WafflesView-ipad.xib"; sourceTree = "<group>"; };
+		C904B8CC13AD16F20010A68C /* TacosView-ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "TacosView-ipad.xib"; path = "e8Tabs/TacosView-ipad.xib"; sourceTree = "<group>"; };
+		C904B8CD13AD16F20010A68C /* BeesView-ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "BeesView-ipad.xib"; path = "e8Tabs/BeesView-ipad.xib"; sourceTree = "<group>"; };
 		C904B8D613AD1B110010A68C /* taco_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taco_icon.png; path = images/taco_icon.png; sourceTree = "<group>"; };
 		C904B8D813AD1B990010A68C /* bee_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bee_icon.png; path = images/bee_icon.png; sourceTree = "<group>"; };
 		C9F99B1013AD1119007925FF /* e8Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = e8Tabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +48,7 @@
 		C9F99B2113AD1119007925FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F99B2313AD1119007925FF /* e8TabsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = e8TabsAppDelegate.h; sourceTree = "<group>"; };
 		C9F99B2413AD1119007925FF /* e8TabsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = e8TabsAppDelegate.m; sourceTree = "<group>"; };
-		C9F99B2713AD1119007925FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C9F99B2713AD1119007925FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/MainWindow-ipad.xib"; sourceTree = "<group>"; };
 		C9F99B3313AD11C3007925FF /* TacosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TacosViewController.h; path = e8Tabs.xcodeproj/TacosViewController.h; sourceTree = "<group>"; };
 		C9F99B3413AD11C3007925FF /* TacosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TacosViewController.m; path = e8Tabs.xcodeproj/TacosViewController.m; sourceTree = "<group>"; };
 		C9F99B4213AD121C007925FF /* BeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeesViewController.h; path = e8Tabs.xcodeproj/BeesViewController.h; sourceTree = "<group>"; };
@@ -81,9 +81,9 @@
 		C903C2A213AD306F00F0FE75 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C904B8CB13AD16F20010A68C /* WafflesView_ipad.xib */,
-				C904B8CC13AD16F20010A68C /* TacosView_ipad.xib */,
-				C904B8CD13AD16F20010A68C /* BeesView_ipad.xib */,
+				C904B8CB13AD16F20010A68C /* WafflesView-ipad.xib */,
+				C904B8CC13AD16F20010A68C /* TacosView-ipad.xib */,
+				C904B8CD13AD16F20010A68C /* BeesView-ipad.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 			children = (
 				C9F99B2313AD1119007925FF /* e8TabsAppDelegate.h */,
 				C9F99B2413AD1119007925FF /* e8TabsAppDelegate.m */,
-				C9F99B2613AD1119007925FF /* MainWindow.xib */,
+				C9F99B2613AD1119007925FF /* MainWindow-ipad.xib */,
 				C9F99B1B13AD1119007925FF /* Supporting Files */,
 			);
 			name = Main;
@@ -222,10 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F99B1F13AD1119007925FF /* InfoPlist.strings in Resources */,
-				C9F99B2813AD1119007925FF /* MainWindow.xib in Resources */,
-				C904B8CF13AD16F20010A68C /* WafflesView_ipad.xib in Resources */,
-				C904B8D013AD16F20010A68C /* TacosView_ipad.xib in Resources */,
-				C904B8D113AD16F20010A68C /* BeesView_ipad.xib in Resources */,
+				C9F99B2813AD1119007925FF /* MainWindow-ipad.xib in Resources */,
+				C904B8CF13AD16F20010A68C /* WafflesView-ipad.xib in Resources */,
+				C904B8D013AD16F20010A68C /* TacosView-ipad.xib in Resources */,
+				C904B8D113AD16F20010A68C /* BeesView-ipad.xib in Resources */,
 				C904B8D713AD1B110010A68C /* taco_icon.png in Resources */,
 				C904B8D913AD1B990010A68C /* bee_icon.png in Resources */,
 				C903C29D13AD1DAA00F0FE75 /* waffle_icon.png in Resources */,
@@ -259,12 +259,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C9F99B2613AD1119007925FF /* MainWindow.xib */ = {
+		C9F99B2613AD1119007925FF /* MainWindow-ipad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C9F99B2713AD1119007925FF /* en */,
 			);
-			name = MainWindow.xib;
+			name = "MainWindow-ipad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -313,7 +313,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "e8Tabs/e8Tabs-Prefix.pch";
 				INFOPLIST_FILE = "e8Tabs/e8Tabs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -326,7 +328,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "e8Tabs/e8Tabs-Prefix.pch";
 				INFOPLIST_FILE = "e8Tabs/e8Tabs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
