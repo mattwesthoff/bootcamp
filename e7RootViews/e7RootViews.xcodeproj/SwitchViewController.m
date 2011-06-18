@@ -48,7 +48,7 @@
             self.BadNewsViewController = badController;
             [badController release];
         }
-		
+        
         [self.GoodNewsViewController.view removeFromSuperview];
         [self.view insertSubview:self.BadNewsViewController.view atIndex:0];
         
