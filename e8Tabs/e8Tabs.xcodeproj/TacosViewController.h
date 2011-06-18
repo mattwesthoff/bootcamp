@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 
 @interface TacosViewController : UIViewController <CLLocationManagerDelegate> {
     //CLLocationManager* _locationManager;
@@ -17,6 +18,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *Lat, *Long, *Alt, *VertAcc, *HorzAcc;
+@property (nonatomic, retain) IBOutlet MKMapView* Map;
 @property (nonatomic, retain) CLLocation* StartDistance;
 @property (nonatomic, retain) CLLocationManager* LocationManager;
 

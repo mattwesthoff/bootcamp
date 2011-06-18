@@ -13,6 +13,7 @@
 
 @synthesize Lat = _lat, Long = _long, Alt = _alt, VertAcc = _vertAcc, HorzAcc = _horzAcc;
 @synthesize StartDistance = _startDistance, LocationManager = _locationManager;
+@synthesize Map = _map;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,6 +33,7 @@
     [_horzAcc release];
     [_locationManager release];
     [_startDistance release];
+    [_map release];
     [super dealloc];
 }
 
@@ -57,6 +59,7 @@
     self.LocationManager.desiredAccuracy = kCLLocationAccuracyBest;
     [self.LocationManager startUpdatingLocation];
 }
+
 -(void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
 {    
     self.Lat.text = [NSString stringWithFormat:@"%g", newLocation.coordinate.latitude];
@@ -76,6 +79,8 @@
     CLLocationDistance dist = [newLocation distanceFromLocation:self.StartDistance];
     NSLog(@"%gm", dist);
     
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(newLocation.coordinate, 500, 500);
+    [self.Map setRegion:region animated:YES];
 }
 
 - (void) locationManager:(CLLocationManager*)manager didFailWithError:(NSError *)error
