@@ -16,23 +16,11 @@
 @synthesize BadNewsViewController = _badNewsViewController;
 @synthesize GoodNewsViewController = _goodNewsViewController;
 
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
- - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
- self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
- if (self) {
- // Custom initialization.
- }
- return self;
- }
- */
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
-	BadNewsViewController *badController = [[BadNewsViewController alloc] initWithNibName:@"BadNewsViewController" bundle:nil];
+    BadNewsViewController *badController = [[BadNewsViewController alloc] initWithNibName:@"BadNewsViewController" bundle:nil];
 	self.BadNewsViewController = badController;
+    
 	[self.view insertSubview:badController.view atIndex:0];
 	[badController release];
 	
@@ -71,6 +59,10 @@
  - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
      return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
  }
+
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+    //here is where I would fix the view that isn't shown
+}
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
